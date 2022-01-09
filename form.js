@@ -1,3 +1,6 @@
+let imagesslides = ["image/slider/სლაიდერი1.png", "image/slider/სლაიდერი2.png", "image/slider/სლაიდერი3.png"]
+let n = 1;
+let t = 5000;
 function slaider(){
     let slide = document.querySelector(".slider img");
     slide.src = imagesslides[n];
@@ -8,6 +11,3 @@ function slaider(){
     else { 
       n = 0;
     }
-let imagesslides = ["image/slider/სლაიდერი1.png", "image/slider/სლაიდერი2.png", "image/slider/სლაიდერი3.png"]
-let n = 1;
-let t = 5000;
